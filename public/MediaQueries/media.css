@@ -1,0 +1,150 @@
+@media (max-width: 320px) {
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer i {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    body>footer>div:nth-child(1)>h1,
+    body>footer>div:nth-child(2)>h1,
+    body>footer>div:nth-child(3)>h1 {
+        font-size: 1.3rem;
+    }
+
+    section.container3>div>p {
+        display: inline-block;
+    }
+
+    body>main>section.container2>h1 {
+        font-size: 1.3rem;
+    }
+
+    body>main>h1.titre {
+        font-size: 1.3rem;
+    }
+
+    body>main>section.container2>div {
+        padding: 20px;
+    }
+
+    section.container3>div>h1 {
+        font-size: 1.3rem;
+        width: 70%;
+        margin: auto;
+    }
+
+    section.container3 {
+        width: 100%;
+    }
+
+    section.container3>div input {
+        width: 100%;
+        padding-left: 10vw;
+    }
+
+    body>footer>div:nth-child(3)>p {
+        font-size: 0.8rem;
+        padding: 4px;
+        line-height: 0.6rem;
+    }
+
+    button.last {
+        width: 20vw;
+        margin-left: 43%;
+        font-size: 1.1rem;
+    }
+
+    .portfolio {
+        grid-template-columns: repeat(1, 2fr)
+    }
+
+    .paragraphe {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar ul {
+        width: 100%;
+    }
+
+    .navbar h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .navbar ul {
+        display: inline-block;
+        padding-left: 2vw;
+    }
+
+    .red img {
+        width: 12vw;
+        padding: 0.5rem 0;
+    }
+
+    .paragraphe {
+        padding: 5rem 5rem;
+    }
+
+    .last {
+        text-align: center;
+        width: 8vw;
+        margin-top: 5rem;
+        padding: 0.5rem;
+        background-color: #DC3545;
+        border: none;
+        border-radius: 5px;
+    }
+
+    footer h1 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .navbar ul {
+        display: inline-block;
+        padding-left: 2vw;
+    }
+
+    .red img {
+        width: 12vw;
+        padding: 0.5rem 0;
+
+    }
+
+    .paragraphe {
+        padding: 5rem 5rem;
+    }
+
+    .last {
+        text-align: center;
+        width: 8vw;
+        margin-top: 5rem;
+        padding: 0.5rem;
+        background-color: #DC3545;
+        border: none;
+        border-radius: 5px;
+    }
+
+    footer h1 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
