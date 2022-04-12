@@ -87,8 +87,11 @@ p {
     gap: 2vw;
 }
 
+
+
 .portfolio img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .container2 {

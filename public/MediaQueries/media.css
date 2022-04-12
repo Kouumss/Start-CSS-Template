@@ -3,9 +3,14 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
-body>header>div.red>h1{
-font-size: 1.4rem;
-}
+
+   body>header>div.red>img{
+   width: 25vw;
+   }
+
+    body>header>div.red>h1 {
+        font-size: 1.4rem;
+    }
 
     footer i {
         font-size: 10px;
@@ -43,7 +48,7 @@ font-size: 1.4rem;
     section.container3 {
         width: 100%;
         padding-left: 9px;
-        
+
     }
 
     section.container3>div input {
