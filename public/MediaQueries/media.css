@@ -1,8 +1,11 @@
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     footer {
         grid-template-columns: repeat(1, 1fr);
 
     }
+body>header>div.red>h1{
+font-size: 1.4rem;
+}
 
     footer i {
         font-size: 10px;
@@ -39,11 +42,15 @@
 
     section.container3 {
         width: 100%;
+        padding-left: 9px;
+        
     }
 
     section.container3>div input {
-        width: 100%;
-        padding-left: 10vw;
+        width: 90%;
+        border-bottom: none;
+        border: 1px solid grey;
+        margin: auto;
     }
 
     body>footer>div:nth-child(3)>p {
@@ -54,12 +61,13 @@
 
     button.last {
         width: 20vw;
-        margin-left: 43%;
+        margin-left: 41%;
         font-size: 1.1rem;
     }
 
     .portfolio {
-        grid-template-columns: repeat(1, 2fr)
+        grid-template-columns: 1fr;
+        width: 100%;
     }
 
     .paragraphe {
@@ -88,6 +96,10 @@
     .red img {
         width: 12vw;
         padding: 0.5rem 0;
+    }
+
+    body>main>section.container2>div {
+        padding: 1rem;
     }
 
     .paragraphe {
